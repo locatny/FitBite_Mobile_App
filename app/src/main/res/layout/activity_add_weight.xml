@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Back Button for navigation -->
+    <ImageButton
+        android:id="@+id/buttonBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_back"
+        android:contentDescription="Back Button"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:layout_alignParentStart="true" />
+
+    <!-- Berat Badan Saat Ini -->
+    <EditText
+        android:id="@+id/editTextCurrentWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Berat Badan Saat Ini (kg)"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextPrimary"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Berat Badan Awal -->
+    <EditText
+        android:id="@+id/editTextInitialWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Berat Badan Awal (kg)"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextPrimary"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Target Berat Badan -->
+    <EditText
+        android:id="@+id/editTextTargetWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Target Berat Badan (kg)"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextPrimary"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSaveWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Berat Badan"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+</LinearLayout>

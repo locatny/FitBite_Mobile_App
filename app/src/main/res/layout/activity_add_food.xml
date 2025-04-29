@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Tombol Kembali -->
+    <ImageView
+        android:id="@+id/imageBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:contentDescription="Back"
+        android:src="@drawable/ic_back"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Input for Food Name -->
+    <EditText
+        android:id="@+id/editTextFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Makanan"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColorHint="@color/colorTextPrimary"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="32dp" />
+
+    <!-- Input for Calories -->
+    <EditText
+        android:id="@+id/editTextCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Kalori"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/colorTextPrimary"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSaveFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan Makanan"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white" />
+</LinearLayout>

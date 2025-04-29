@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header with Profile Picture and Settings -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Profile Icon -->
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_profile"
+            android:contentDescription="Profile Image"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="16dp" />
+
+        <!-- Settings Icon -->
+        <ImageView
+            android:id="@+id/imageSettings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="48dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_setting"
+            android:contentDescription="Settings Icon"
+            android:layout_marginEnd="16dp" />
+    </RelativeLayout>
+
+    <!-- Target Berat Badan -->
+    <TextView
+        android:id="@+id/textWeightGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target Berat: - kg"
+        android:textSize="16sp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="8dp" />
+
+    <!-- Berat Saat Ini -->
+    <TextView
+        android:id="@+id/textCurrentWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat Saat Ini: - kg"
+        android:textSize="16sp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="4dp" />
+
+    <!-- Perubahan Berat Badan -->
+    <TextView
+        android:id="@+id/textWeightChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sejauh Ini Berkurang: - kg"
+        android:textSize="16sp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="4dp" />
+
+
+
+    <!-- Weight History -->
+    <TextView
+        android:id="@+id/textWeightHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Berat Badan"
+        android:textSize="24sp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="16dp" />
+
+    <!-- RecyclerView for Weight History -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewWeightHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

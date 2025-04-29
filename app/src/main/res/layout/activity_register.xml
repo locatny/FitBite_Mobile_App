@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center">
+
+    <!-- Title: Register -->
+    <TextView
+        android:id="@+id/textRegisterTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:background="@null"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="15dp"/>
+
+    <!-- Card Layout containing input fields and buttons -->
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="800dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat datang!"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Silakan buat akun terlebih dahulu"
+            android:textSize="15sp"/>
+
+        <!-- Input for Name -->
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:hint="Nama"
+            android:importantForAccessibility="yes"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <!-- Input for Username -->
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:hint="Username"
+            android:importantForAccessibility="yes"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <!-- Input for Email -->
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:hint="Email"
+            android:importantForAccessibility="yes"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <!-- Input for Password -->
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:hint="Kata Sandi"
+            android:importantForAccessibility="yes"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/button_background"
+            android:contentDescription="Register button"
+            android:importantForAccessibility="yes"
+            android:text="Daftar"
+            android:textColor="@color/colorTextPrimary" />
+
+        <!-- Login Link -->
+        <TextView
+            android:id="@+id/textLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:clickable="true"
+            android:contentDescription="Login link"
+            android:layout_gravity="center"
+            android:importantForAccessibility="yes"
+            android:minHeight="48dp"
+            android:text="Sudah punya akun? Masuk"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center">
+
+
+        <!-- Title: Login -->
+        <TextView
+            android:id="@+id/textLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_marginTop="150dp"
+            android:text="Login"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="start"/>
+
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="800dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/card"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat datang kembali!"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Silakan masuk terlebih dahulu untuk menikamti fitur-fitur dari aplikasi ini"
+            android:textSize="15sp"/>
+
+
+        <!-- Input for Username/Email -->
+        <EditText
+            android:id="@+id/editTextUsernameEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border"
+            android:hint="Email"
+            android:importantForAccessibility="yes"
+            android:inputType="textEmailAddress|textPersonName"
+            android:padding="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <!-- Input for Password -->
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/border"
+            android:hint="Kata Sandi"
+            android:importantForAccessibility="yes"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <!-- Forgot Password Link -->
+        <TextView
+            android:id="@+id/textForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:contentDescription="Forgot password link"
+            android:gravity="end"
+            android:importantForAccessibility="yes"
+            android:minHeight="48dp"
+            android:text="Lupa Kata Sandi?"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="14sp" />
+
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/button_background"
+            android:contentDescription="Login button"
+            android:importantForAccessibility="yes"
+            android:text="Masuk"
+            android:textColor="@color/colorTextPrimary" />
+
+        <!-- Register Button -->
+        <TextView
+            android:id="@+id/textRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:clickable="true"
+            android:contentDescription="Register link"
+            android:importantForAccessibility="yes"
+            android:minHeight="48dp"
+            android:layout_gravity="center"
+            android:text="Belum punya akun? Register"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#252525</color>
+    <!-- Primary color (Red) -->
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryVariant">#D32F2F</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <!-- Background and text -->
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnBackground">#E0E0E0</color>
+
+    <!-- Surface and text on surface -->
+    <color name="colorSurface">#333333</color>
+    <color name="colorOnSurface">#E0E0E0</color>
+
+    <!-- Text Colors -->
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecondary">#B0B0B0</color>
+
+    <!-- Accent Color (Red) -->
+    <color name="colorAccent">#F44336</color>
+
+    <!-- Divider -->
+    <color name="colorDivider">#444444</color>
+
+    <!-- Status Bar -->
+    <color name="colorStatusBar">#B71C1C</color>
+</resources>

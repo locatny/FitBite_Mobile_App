@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header: Profile Icon and Settings Icon -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Profile Icon -->
+        <ImageView
+            android:id="@+id/imageProfile"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:contentDescription="Profile Image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_profile" />
+
+        <!-- Settings Icon -->
+        <ImageView
+            android:id="@+id/imageSettings"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Settings Icon"
+            android:src="@drawable/ic_setting" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+
+    <!-- CardView for Adding Weight Information -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAddWeight"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <!-- Timbangan Icon -->
+            <ImageView
+                android:id="@+id/imageScale"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Weight Icon"
+                android:src="@drawable/ic_scale" />
+
+            <!-- Text for Berat Saya -->
+            <TextView
+                android:id="@+id/textAddWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat Saya"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="200dp"
+                android:src="@drawable/ic_rightarrow" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- CardView for Makanan Saya -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFood"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/grey"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <!-- Food Icon -->
+            <ImageView
+                android:id="@+id/imageFood"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="16dp"
+                android:contentDescription="Food Icon"
+                android:src="@drawable/ic_food" />
+
+            <!-- Text for Makanan Saya -->
+            <TextView
+                android:id="@+id/textAddFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Makanan Saya"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="170dp"
+                android:src="@drawable/ic_rightarrow" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
