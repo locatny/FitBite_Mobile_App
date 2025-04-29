@@ -1,13 +1,15 @@
-# Story Board FiteBite
-![Section 1](https://github.com/user-attachments/assets/e11d6e1f-5dd6-4df6-b5c6-acfbc629a7a3)
+# <h1 align="center">Story Board FitBite</h1>
+![StoryBoard](https://github.com/user-attachments/assets/9baff45a-7931-4253-b87d-25b546eaf03b)
 
 
-# Mock Up 
-![Section 2](https://github.com/user-attachments/assets/ef421f37-c474-4e88-b71c-6b584e0faa18)
+
+# <h1 align="center">Mock Up</h1>
+![Mockup](https://github.com/user-attachments/assets/2f90f9f5-00e7-4bf1-ba4e-1098238fc68b)
 
 
-# UI/UX
 
-![Section 3](https://github.com/user-attachments/assets/5216bd7f-60ec-42b2-9fa2-0b4b6a2f14fd)
+# <h1 align="center">UI/UX</h1>
+![User Interface](https://github.com/user-attachments/assets/941ccc5d-8232-4a14-9a28-0293b218f1a9)
+
 
 
