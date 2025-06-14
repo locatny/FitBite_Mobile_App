@@ -1,15 +1,25 @@
-# <h1 align="center">Story Board FitBite</h1>
-![StoryBoard](https://github.com/user-attachments/assets/9baff45a-7931-4253-b87d-25b546eaf03b)
+# <h1 align="center">StoryBoard FitBite</h1>
+![image](https://github.com/user-attachments/assets/5d07af4a-a3df-4e2d-80ec-75283c41d9eb)
 
 
 
-# <h1 align="center">Mock Up</h1>
-![Mockup](https://github.com/user-attachments/assets/2f90f9f5-00e7-4bf1-ba4e-1098238fc68b)
+
+
+# <h1 align="center">MockUp</h1> 
+![image](https://github.com/user-attachments/assets/63ada43b-2ce5-44d0-92ca-afb86965c8a5)
 
 
 
-# <h1 align="center">UI/UX</h1>
-![User Interface](https://github.com/user-attachments/assets/941ccc5d-8232-4a14-9a28-0293b218f1a9)
 
+
+# <h1 align="center">UI</h1> 
+![image](https://github.com/user-attachments/assets/9c152fdc-ead6-4f00-9edf-d84a1e8b8d67)
+
+
+
+
+
+# <h1 align="center">UX(_Prototype_)</h1> 
+![image](https://github.com/user-attachments/assets/8271b1f1-1ce8-4d8f-aeca-92bda081284b)
 
 
